@@ -1,4 +1,30 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-image: url("grunge-black-concrete-textured-background_53876-124541.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 }
